@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="TMCC">
+  <component name="PublishConfigData" serverName="TMCC" uploadOnCheckin="23944121-a7fe-47c5-8136-c4f4253b9c91">
     <serverData>
       <paths name="TMCC">
         <serverdata>
@@ -10,5 +10,6 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="TMCC" />
   </component>
 </project>
