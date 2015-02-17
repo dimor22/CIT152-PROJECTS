@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Chapter 8 Text Page">
+	<meta name="keywords" content="CIT 152 JS">
+	<meta name="author" content="David Lopez">
+	<title>Text - David Lopez</title>
+	<link rel="stylesheet" href="main.css"/>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<h1>Text Page</h1>
+	</header>
+	
+	<form action="text.html" method="post" id="textForm">
+		<div><label for="comments">Comments</label>
+			<textarea name="comments" id="comments" maxlength="100" required></textarea></div>
+		<div><label for="count">Character Count</label>
+			<input type="text" name="count" id="count" disabled></div>
+	</form>
+
+	<a href="index.html" class="return-btn">Back to Chapter INDEX</a>
+
+	<footer>
+		<p>&copy; 2015 David Lopez</p>
+	</footer>
+	
+	<script src="utilities.js"></script>
+	<script src="text.js"></script>
+</body>
+</html>

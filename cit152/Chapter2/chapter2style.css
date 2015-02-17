@@ -1,0 +1,22 @@
+/*
+ * CHAPTER 2 STYLE
+ */
+ form#loginForm {
+}
+
+fieldset {
+    padding: 20px;
+}
+
+fieldset div {
+    padding: 10px;
+}
+
+label {
+    width: 123px;
+    display: -webkit-inline-box;
+    display: -moz-box;
+}
+input {
+	padding: 5px 0 5px 15px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Chapter 6 Tasks2 Page"/>
+	<meta name="keywords" content="CIT 152 JS"/>
+	<meta name="author" content="David Lopez"/>
+	<title>Tasks2 - David Lopez</title>
+	<link rel="stylesheet" href="main.css"/>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<h1>Tasks2 Page</h1>
+	</header>
+	
+	<form id="tasksForm" method="post" action="tasks2.html" novalidate="novalidate">
+		<fieldset><legend>Enter an Item To Be Done</legend>
+	        <div><label for="task">Task</label><input type="text" name="task" id="task" required></div>
+	        <input type="submit" value="Add It!" id="submit">
+			<div id="output"></div>
+	    </fieldset>
+	</form>
+
+	<a href="index.html" class="return-btn">Back to Chapter INDEX</a>
+
+	<footer>
+		<p>&copy; 2015 David Lopez</p>
+	</footer>
+	
+	<script src="tasks2.js"></script>
+</body>
+</html>

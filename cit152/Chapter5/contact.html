@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Chapter 5 Contact Page">
+	<meta name="keywords" content="CIT 152 JS">
+	<meta name="author" content="David Lopez">
+	<title>Contact - David Lopez</title>
+	<link rel="stylesheet" href="main.css"/>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<h1>Contact Page</h1>
+	</header>
+	
+	<form action="contact.html" method="post" id="contactForm" novalidate="novalidate">
+        <fieldset><legend>Contact</legend>
+            <div><label for="email">Email Address</label>
+	            <input type="email" name="email" id="email" required></div>
+            <div><label for="comments">Comments</label>
+	            <textarea name="comments" id="comments" required></textarea></div>
+            <input type="submit" value="Submit" id="submit">
+        </fieldset>
+    </form>
+    
+    	<a href="index.html" class="return-btn">Back to Chapter INDEX</a>
+
+
+	<footer>
+		<p>&copy; 2015 David Lopez</p>
+	</footer>
+	
+	<script src="contact.js"></script>
+</body>
+</html>

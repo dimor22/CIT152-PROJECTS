@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Chapter 6 Employee Page"/>
+	<meta name="keywords" content="CIT 152 JS"/>
+	<meta name="author" content="David Lopez"/>
+	<title>Employee - David Lopez</title>
+	<link rel="stylesheet" href="main.css"/>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<header>
+		<h1>Employee Page</h1>
+	</header>
+	
+	<form id="employeeForm" method="post" action="employee.html" novalidate="novalidate">
+		<fieldset><legend>Add an Employee</legend>
+	        <div><label for="firstName">First Name</label><input type="text" name="firstName" id="firstName" required></div>
+	        <div><label for="lastName">Last Name</label><input type="text" name="lastName" id="lastName" required></div>
+	        <div><label for="department">Department</label><select name="department" id="department">
+	            <option value="Accounting">Accounting</option>
+	            <option value="Administration">Administration</option>
+	            <option value="Human Resources">Human Resources</option>
+	            <option value="Marketing">Marketing</option>
+	        </select></div>
+	        <input type="submit" value="Submit" id="submit">
+	    </fieldset>
+	    <div id="output"></div>
+	</form>
+
+	<a href="index.html" class="return-btn">Back to Chapter INDEX</a>
+
+	<footer>
+		<p>&copy; 2015 David Lopez</p>
+	</footer>
+	
+	<script src="employee.js"></script>
+</body>
+</html>

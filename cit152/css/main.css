@@ -1,0 +1,207 @@
+/*
+	Student Home Page : David Lopez
+*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+html{
+	background-image: url('../img/homebg.jpg');
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-color: #000;
+}
+body{
+	width: 94%;
+	max-width: 900px;
+	min-width: 320px;
+	margin: 40px auto;
+	background-color: rgba(255, 255, 255, 0.9);
+	border-radius: 5px;
+	padding: 1%;
+	border: 1px solid #ccc;
+	font-family: sans-serif;
+	font-weight: 100;
+	position: relative;
+}
+body header p{
+	text-align: right;
+	padding-right: 4%;
+}
+#last-modified{
+	color: red;
+	font-size: 1rem;
+}
+header{
+	margin-bottom: 40px;
+	clear: both;
+	height: 128px;
+}
+header h1 {
+	text-align: center;
+	color: #23241F;
+	font-family: inherit;
+	font-weight: 300;
+	font-size: 3.3rem;
+	width: 80%;
+	padding-top: 20px;
+	float: right;
+}
+header img {
+	display: block;
+	float: left;
+}
+section h2{
+	font-weight: 100;
+	text-align: center;
+	padding: 20px 0 10px;
+}
+.btn {
+	background: url('../img/btn-bg.png') no-repeat;
+	background-size: 29px;
+	background-position: center right;
+	display: block;
+	padding: 8px 0px 8px 14px;
+	border: 1px solid #ccc;
+	width: 100%;
+	margin: 5px;
+	background-color: rgba(255, 255, 255, 0.71);
+	text-decoration: none;
+	color: green;
+}
+.btn:hover{
+	border: 1px solid #fff;
+	background-color: #fff;
+}
+section {
+	float: left;
+	width: 27%;
+	margin: 0 2%;
+	position: relative;
+}
+
+section ul {
+	list-style: none;
+}
+footer p {
+	text-align: center;
+}
+
+footer {
+	display: block;
+	margin: 50px auto 0;
+	padding-top: 40px;
+	clear: both;
+}
+
+/** FORM STYLE ============================== */
+form{
+	width:100%;
+    max-width:60%;
+    margin: 0 auto;
+    font-size: xx-large;
+}
+form div{
+    margin: 5px 0px 20px;
+    width: 100%;
+}
+fieldset {
+    padding: 20px;
+}
+
+fieldset div {
+    padding: 10px;
+}
+
+label {
+    display: -webkit-inline-box;
+    display: -moz-box;
+    display: block;
+    width: 70%;
+}
+input {
+	padding: 5px;
+    font-size: xx-large;
+    width: 97%;
+}
+
+
+@media (max-width: 500px) {
+	body{
+		margin-top:5px;
+	}
+	header {
+		margin-bottom: 20px;
+		height: 221px;
+	}
+	header h1 {
+		font-size: 2rem;
+		text-align: center;
+
+		float: none;
+		width: 100%;
+	}
+	header img{
+		float: none;
+		width: 100px;
+		margin: 15px auto 0px;
+	}
+	body header p{
+		text-align: center;
+		float: none;
+		padding-top: 10px;
+	}
+	.btn {
+		background-image: none;
+
+		margin: 1px auto;
+
+		width: 82%;
+
+		height: 45px;
+
+		line-height: 45px;
+
+		font-size: xx-large;
+	}
+	section{
+		float: none;
+		width: 100%;
+		text-align: center;
+
+		margin: 0px;
+	}
+	section h2{
+		font-size:2rem;
+		padding:20px 0;
+		background-color: green;
+		color: white;
+
+		width: 95%;
+		display: block;
+		margin: 0 auto;
+	}
+	footer {
+		display: block;
+		margin: 30px auto 0;
+		padding-top: 0px;
+		clear: both;
+	}
+	
+	/* FORM STYLE */
+	form{
+		width: 95%;
+	}
+	label{
+		width: 100%;
+		display: block;
+		margin: 0 auto;
+	}
+	input{
+		width: 88%;
+		display: block;
+	}
+}
+
+	
